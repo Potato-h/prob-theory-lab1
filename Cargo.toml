@@ -1,0 +1,22 @@
+[package]
+name = "prob-theory-lab1"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "*"
+
+
+[[bin]]
+name = "task2"
+path = "src/task2.rs"
+
+[[bin]]
+name = "task3"
+path = "src/task3.rs"
+
+[[bin]]
+name = "task4"
+path = "src/task4.rs"
